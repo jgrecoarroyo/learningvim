@@ -105,6 +105,10 @@ To add this change permanentely, you can edit ~/.vimrc file and append vim comma
 
 
 
+### Help
+
+Just type `:help` inside vim, enjoy!
+
 ### Cheatsheet
 
 <img src="http://zzyxx.wdfiles.com/local--files/tui-text-editors/vi-vim-cheat-sheet-belgian-azerty.svg">
