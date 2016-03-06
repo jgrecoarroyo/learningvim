@@ -1,4 +1,4 @@
-# ![vim logo](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1") VIM
+# <img src="https://raw.githubusercontent.com/jgrecoarroyo/learningvim/master/img/vim_badge.png" data-canonical-src="https://raw.githubusercontent.com/jgrecoarroyo/learningvim/master/img/vim_badge.png" width="50" height="60" /> VIM
 
 ### vi improved
 
