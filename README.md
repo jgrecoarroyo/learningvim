@@ -6,7 +6,7 @@ Note: this notes follow mainly the tutorial found in the CLI `vimtutor`
 
 ---
 
-*Bookmark vim tutor: Lesson 4.1: CURSOR LOCATION AND FILE STATUS*
+*Bookmark vim tutor: Lesson 5.3: SELECTING TEXT TO WRITE (and making notes of it)*
 
 ---
 
@@ -81,8 +81,7 @@ NOTE: Pressing <ESC> will place you in Normal mode or will cancel an unwanted an
 2. To **undo all** the changes **on a line**, type:   `U  (capital U)`
 3. To **undo the undo's**, type:  `<CTRL-R>`
 
-
-## Lesson 6  - PUT, REPLACE and CHANGE 
+## Lesson 6  - Put, Replace and Change 
 
 1. **PUT** operator: press `p` (inserts line deleted with `dd`)
 2. **REPLACE** operator: press `r`  and then the character you want to have there.
@@ -91,6 +90,46 @@ NOTE: Pressing <ESC> will place you in Normal mode or will cancel an unwanted an
    2. type `c$`  to change to the end of a line
 
    The format for change is: ```c   [number]   motion```
+
+## Lesson 7 - Search command
+
+1. ***Type  `/`  followed by a phrase to search for the phrase.*** 
+   1. In Normal mode type the  /  character.  Notice that it and the cursor appear at the bottom of the screen as with the  :  command.
+   2. To search for the same phrase again, simply type  n. To search for the same phrase in the opposite direction, type  N.
+2. **Type `%` to find a matching ),], or }**
+   1. Place the cursor on any (, [, or { 
+
+   2. Now type the  %  character. The cursor will move to the matching parenthesis or bracket.
+
+## Lesson 8 - Replace command
+
+  1. To substitute new for the first old in a line type        ` :s/old/new`
+  2. **To ask for confirmation each time add 'c'**             `:%s/old/new/gc`
+
+## Lesson 9 - Run external command
+
+1. **Type  `:!`  followed by an external command to execute that command.**
+   1. Type the familiar command  :  to set the cursor at the bottom of the screen.  This allows you to enter a command-line command.
+   2. Now type the  !  (exclamation point) character.  This allows you to execute any external shell command.
+   3. As an example type   ls   following the ! and then hit `<ENTER>`.
+
+## Lesson 10 - Visual selection `v`
+
+To save part of the file, type  v  motion  :w FILENAME
+
+  1. Move the cursor to this line.
+
+  2. Press  v  and move the cursor to the fifth item below.  Notice that the
+     text is highlighted.
+
+  3. Press the  :  character.  At the bottom of the screen  :'<,'> will appear.
+
+  4. Type  w TEST  , where TEST is a filename that does not exist yet.  Verify
+     that you see  :'<,'>w TEST  before you press <ENTER>.
+
+
+
+
 
 
 
@@ -101,6 +140,8 @@ NOTE: Pressing <ESC> will place you in Normal mode or will cancel an unwanted an
 How to add syntax highlighting? use the command `:syntax on`
 
 To add this change permanentely, you can edit ~/.vimrc file and append vim command syntax on to it. This ensures that vim will start with color syntax highlighting option on.
+
+
 
 
 
