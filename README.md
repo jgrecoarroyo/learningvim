@@ -9,8 +9,8 @@ Note: this notes follow mainly the tutorial found in the CLI `vimtutor`
 ## Lesson 1 - The very basics
 
 
-  1. To **start** Vim from the shell prompt type:  vim FILENAME <ENTER>
-  2. To **exit** Vim type:     <ESC>   :q!   <ENTER>  to trash all changes.
+  1. To **start** Vim from the shell prompt type:  vim FILENAME `<ENTER>`
+  2. To **exit** Vim type:     `<ESC>`   :q!   `<ENTER>`  to trash all changes.
 
          OR type:  <ESC>  :wq   <ENTER>  to save the changes.
 
@@ -51,12 +51,10 @@ NOTE: Pressing <ESC> will place you in Normal mode or will cancel an unwanted an
 5. To move to the **start of the line** use a zero:  `0`
 
 
-
 ## Lesson 3 - Deleting 
 
 1. To **detele a character** press: `x`
 2. To **delete a whole line** press: `dd`
-
 
 
 ## Lesson 4 - Repeating a motion
@@ -76,13 +74,11 @@ NOTE: Pressing <ESC> will place you in Normal mode or will cancel an unwanted an
    2. To **delete X number** of times press: `2dd` (deltes 2 whole lines)
 
 
-
 ## Lesson 5  - Undo
 
 1. To **undo** previous actions, type:                 `u  (lowercase u)`
 2. To **undo all** the changes **on a line**, type:   `U  (capital U)`
-3. To **undo the undo's**, type:  <CTRL-R>
-
+3. To **undo the undo's**, type:  `<CTRL-R>`
 
 
 
@@ -102,6 +98,4 @@ To add this change permanentely, you can edit ~/.vimrc file and append vim comma
 ### Cheatsheet
 
 <img src="http://zzyxx.wdfiles.com/local--files/tui-text-editors/vi-vim-cheat-sheet-belgian-azerty.svg">
-
-
 
