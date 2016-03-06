@@ -48,7 +48,7 @@ To add this change permanentely, you can edit ~/.vimrc file and append vim comma
 
 ### Cheatsheet
 
-<img src="https://raw.githubusercontent.com/jgrecoarroyo/learningvim/master/img/vimCheatsheet1.svg">
+<img src="http://zzyxx.wdfiles.com/local--files/tui-text-editors/vi-vim-cheat-sheet-belgian-azerty.svg">
 
 
 
