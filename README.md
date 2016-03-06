@@ -49,7 +49,7 @@ To add this change permanentely, you can edit ~/.vimrc file and append vim comma
 ### Cheatsheet
 
 <img
-src="https://github.com/jgrecoarroyo/learningvim/img/vimCheatsheet1.svg">
+src="https://github.com/jgrecoarroyo/learningvim/blob/master/img/vimCheatsheet1.svg">
 
 
 
