@@ -4,7 +4,11 @@
 
 Note: this notes follow mainly the tutorial found in the CLI `vimtutor`
 
+---
 
+*Bookmark vim tutor: Lesson 4.1: CURSOR LOCATION AND FILE STATUS*
+
+---
 
 ## Lesson 1 - The very basics
 
@@ -50,12 +54,10 @@ NOTE: Pressing <ESC> will place you in Normal mode or will cancel an unwanted an
 
 5. To move to the **start of the line** use a zero:  `0`
 
-
 ## Lesson 3 - Deleting 
 
 1. To **detele a character** press: `x`
 2. To **delete a whole line** press: `dd`
-
 
 ## Lesson 4 - Repeating a motion
 
@@ -73,13 +75,11 @@ NOTE: Pressing <ESC> will place you in Normal mode or will cancel an unwanted an
    1. To **move X number** of words press: `3w` (moves 3 words), `5e`, etc.
    2. To **delete X number** of times press: `2dd` (deltes 2 whole lines)
 
-
 ## Lesson 5  - Undo
 
 1. To **undo** previous actions, type:                 `u  (lowercase u)`
 2. To **undo all** the changes **on a line**, type:   `U  (capital U)`
 3. To **undo the undo's**, type:  `<CTRL-R>`
-
 
 
 ## Lesson 6  - PUT, REPLACE and CHANGE 
@@ -91,7 +91,6 @@ NOTE: Pressing <ESC> will place you in Normal mode or will cancel an unwanted an
    2. type `c$`  to change to the end of a line
 
    The format for change is: ```c   [number]   motion```
-
 
 
 
@@ -112,4 +111,3 @@ Just type `:help` inside vim, enjoy!
 ### Cheatsheet
 
 <img src="http://zzyxx.wdfiles.com/local--files/tui-text-editors/vi-vim-cheat-sheet-belgian-azerty.svg">
-
