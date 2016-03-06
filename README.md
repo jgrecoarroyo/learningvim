@@ -82,6 +82,16 @@ NOTE: Pressing <ESC> will place you in Normal mode or will cancel an unwanted an
 
 
 
+## Lesson 6  - PUT, REPLACE and CHANGE 
+
+1. **PUT** operator: press `p` (inserts line deleted with `dd`)
+2. **REPLACE** operator: press `r`  and then the character you want to have there.
+3. **CHANGE** operator: 
+   1. type `ce`  to change from the cursor to the end of the word
+   2. type `c$`  to change to the end of a line
+
+   The format for change is: ```c   [number]   motion```
+
 
 
 
