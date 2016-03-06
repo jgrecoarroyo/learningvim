@@ -48,8 +48,7 @@ To add this change permanentely, you can edit ~/.vimrc file and append vim comma
 
 ### Cheatsheet
 
-<img
-src="https://github.com/jgrecoarroyo/learningvim/blob/master/img/vimCheatsheet1.svg">
+<img src="https://raw.githubusercontent.com/jgrecoarroyo/learningvim/master/img/vimCheatsheet1.svg">
 
 
 
