@@ -36,7 +36,11 @@ NOTE: Pressing <ESC> will place you in Normal mode or will cancel an unwanted an
 
 
 
+## Extra
 
+How to add syntax highlighting? use the command `:syntaxt on`
+
+To add this change permanentely, you can edit ~/.vimrc file and append vim command syntax on to it. This ensures that vim will start with color syntax highlighting option on.
 
 
 
