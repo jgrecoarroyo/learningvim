@@ -101,8 +101,7 @@ To add this change permanentely, you can edit ~/.vimrc file and append vim comma
 
 ### Cheatsheet
 
-<img
-src="https://github.com/jgrecoarroyo/learningvim/img/vimCheatsheet1.svg">
+<img src="http://zzyxx.wdfiles.com/local--files/tui-text-editors/vi-vim-cheat-sheet-belgian-azerty.svg">
 
 
 
