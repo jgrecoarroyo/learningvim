@@ -4,12 +4,6 @@
 
 Note: this notes follow mainly the tutorial found in the CLI `vimtutor`
 
----
-
-*Bookmark vim tutor: Lesson 5.3: SELECTING TEXT TO WRITE (and making notes of it)*
-
----
-
 ## Lesson 1 - The very basics
 
 
