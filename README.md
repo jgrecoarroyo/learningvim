@@ -154,8 +154,11 @@ To save part of the file, type  v  motion  :w FILENAME
 
 Note: further reading type `:help usr_08.txt`
 
+## Lesson 14 - Open file explorer
 
+1. 
 
+   `
 
 
 ## Extra
