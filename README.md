@@ -127,6 +127,25 @@ To save part of the file, type  v  motion  :w FILENAME
   4. Type  w TEST  , where TEST is a filename that does not exist yet.  Verify
      that you see  :'<,'>w TEST  before you press <ENTER>.
 
+## Lesson 11 - Inserting text
+
+1. **From an extrenal file**: type`:r FILENAME`  retrieves disk file FILENAME and puts it below the cursor position.
+2. **Append** data: type `a`
+3. **Insert** data: type `i`
+4. **Open a new line** of data **BELOW** the cursor line: type `o`
+5. **Open a new line** of data **ABOVE** the cursor line: type `<SHIFT> + o`
+6. **Replace** more than one character: type `<SHIFT> + r`
+
+
+
+## Lesson 12 - Copy & Paste
+
+1. To copy use the operator `y`
+
+2. To paste use the operator `p`
+
+   Note: to copy more than a line use the visual block operator `v`
+
 
 
 
