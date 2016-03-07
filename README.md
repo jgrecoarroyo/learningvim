@@ -140,16 +140,28 @@ To save part of the file, type  v  motion  :w FILENAME
 
 ## Lesson 12 - Copy & Paste
 
-1. To copy use the operator `y`
+1. To **copy** use the operator `y`
 
-2. To paste use the operator `p`
+2. To **paste** use the operator `p`
 
-   Note: to copy more than a line use the visual block operator `v`
-
-
+   *Note: to copy more than a line use the visual block operator `v`*
 
 
-*Check Split screen command*
+
+## Lesson 13 - Split screen
+
+1. To **split the window** in two, type the command `:split`
+   1. To split the window with another file type `:split file2.txt`
+   2. To open a **new window** type `:new`
+   3. To perform **vertical split** type `:vsplit`
+2. To **switch** between windows type `<CTRL> + w`
+3. To **close all** windows type the command `:close`
+4. To **close all other** window type the command `:only`
+
+Note: further reading type `:help usr_08.txt`
+
+
+
 
 
 ## Extra
