@@ -130,7 +130,7 @@ To save part of the file, type  v  motion  :w FILENAME
 
 
 
-
+*Check Split screen command*
 
 
 ## Extra
