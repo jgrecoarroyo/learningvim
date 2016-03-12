@@ -131,7 +131,6 @@ To save part of the file, type  v  motion  :w FILENAME
 6. **Replace** more than one character: type `<SHIFT> + r`
 
 
-
 ## Lesson 12 - Copy & Paste
 
 1. To **copy** use the operator `y`
@@ -139,7 +138,6 @@ To save part of the file, type  v  motion  :w FILENAME
 2. To **paste** use the operator `p`
 
    *Note: to copy more than a line use the visual block operator `v`*
-
 
 
 ## Lesson 13 - Split screen
@@ -156,10 +154,9 @@ Note: further reading type `:help usr_08.txt`
 
 ## Lesson 14 - Open file explorer
 
-1. 
+1. To open the file explorer type `:e`
 
    `
-
 
 ## Extra
 
